@@ -5,23 +5,28 @@ This module returns an array of harmonious colors and a contrasting color for ea
 ## Example
 
 const palette = require('bt-palette');
+
 palette.makePalette(3);
 
 Outputs:
 
 [
+
     {
         foreground: 'rgb(255, 255, 255)',
         background: 'rgb(4, 7, 59)'
     },
+    
     {
         foreground: 'rgb(0, 0, 0)',
         background: 'rgb(124, 128, 172)'
     },
+    
     {
         foreground: 'rgb(0, 0, 0)',
         background: 'rgb(223, 182, 210)'
     }
+    
 ]
 
 
