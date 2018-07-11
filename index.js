@@ -120,4 +120,4 @@ const palette = {
     transformPaletteForCSS
 };
 
-module.exports =  palette;
+module.exports = palette;
