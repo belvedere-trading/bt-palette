@@ -1,0 +1,17 @@
+{
+  "name": "bt-palette",
+  "version": "1.0.0",
+  "description": "A package that generates harmonious color palettes of n length.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha _test_/*.js --reporter spec"
+  },
+  "author": "Claire Niederberger",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "chai": "4.1.2"
+  }
+}
